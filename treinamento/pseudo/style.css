@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+h1{
+    font-size: 40px;
+}
+
+button{
+    background: rgb(1, 71, 68);
+    color: rgb(112, 243, 236);
+    padding: 12px 26px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 10px;
+    
+}
+
+button:hover:not(:disabled),
+button:focus{
+    background: rgb(1, 44, 42);
+    outline: 2px solid rgb(1, 44, 42);
+    outline-offset: 2px ;
+    cursor: pointer;
+}
+button:disabled{
+    background: whitesmoke;
+    color: white;
+}
+
+   
+
+ul li:first-child{
+    background: violet;
+}
+
+ul li:last-child{
+    background: rgb(211, 59, 110);
+}
+
+section p:nth-child(2){
+background: yellow;
+}

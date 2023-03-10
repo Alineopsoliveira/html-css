@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+form{
+    font-family: sans-serif;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+input , textarea {
+
+    display: flex;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,276 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'friends' ;
+    src: url('../fontes/GABRWFFR.TTF')  format('truetype');
+    
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+a{
+  white-space: nowrap;
+}
+
+:root {
+ --cor01: #50b4f7;
+ --cor02:#F2CE16;
+ --cor03:#F20707;
+ --cor04:#F2F2F2;
+ --cor05: #0D0D0D;
+ --font-principal: 'friends', verdana , arial;
+}
+ 
+
+header{
+  background: var(--cor05);  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position:fixed;
+  top: 0;
+  width: 100%;
+  
+}
+header img {
+  padding: 12px 24px;
+  max-width: 350px;     
+}
+
+header a{
+  font-family: var(--font-principal);
+  color: var(--cor04);
+  text-decoration: none;
+  margin-right:8px ;
+  transition: 1s;
+
+}
+header a:hover{
+  background: var(--cor04);
+  color: var(--cor05);
+  border-radius: 2px;
+  padding: 4px;
+}
+nav a::after{
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+
+  display: inline-block;
+ 
+}
+nav a:first-child::after{
+  background: var(--cor03);
+  margin-left: 5px;
+}
+nav a:nth-child(2)::after{
+  background: var(--cor01);
+  margin-left: 5px;
+}
+
+
+a:last-child::after{
+  background: var(--cor02);
+  margin-left: 5px;
+  white-space: nowrap;
+}
+
+
+.banner{
+  background-image: url(../imagens/banner\ certo.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 70px;
+
+  
+  
+}
+
+
+
+#curiosities {
+  padding: 24px;
+  background: var(--cor03);
+}
+#curiosities .introduction {
+  background: var(--cor04);
+  border-radius: 3px;
+  padding: 5px 20px ;
+}
+#curiosities .introduction h1{
+  color: var(--cor01);
+  font-family: var(--font-principal);
+  margin: 20px 0;
+  font-size: 35px;
+  width: 600px;
+  border-bottom: 2px solid var(--cor03);
+}
+
+#curiosities .introduction a{
+  color: var(--cor01);
+  transition: 1s;
+}
+
+#curiosities .introduction a:hover{
+  color: var(--cor03);
+}
+
+#curiosities .introduction p{
+  color: var(--cor05);
+ text-align: left;
+ font-size: 30px;
+ margin: 24px 0;
+}
+#curiosities .fatos  .container {
+  background: var(--cor05);
+  margin: 20px;
+  border-radius: 4px;
+  display: flex ;
+}
+#curiosities .fatos  .container div{
+  margin: 30px 15px;
+}
+
+#curiosities .fatos  .container h2{
+  color: var(--cor02);
+  
+}
+
+#curiosities .fatos  .container img{
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 4px;
+  border: 2px solid var(--cor01);
+}
+
+#curiosities .fatos  .container p{
+  font-size: 20px;
+  color: var(--cor04);
+  
+}
+
+#curiosities .fatos  .container a{
+  color: var(--cor01);
+  transition: 1s;
+}
+#curiosities .fatos  .container a:hover{
+ color: var(--cor02);
+}
+
+
+#cast{
+  background: var(--cor01);
+}
+#cast h2{
+
+  font: 3em var(--font-principal);
+  padding: 30px;
+}
+#cast .personagens{
+ 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px , 1fr));
+  
+ 
+}
+.information{
+  background: var(--cor05);
+  color: var(--cor04);
+  margin: 20px;
+  width: 320px;
+  height: 870px;
+  
+}
+
+ 
+.information img, 
+.information p{
+
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+ 
+  
+}
+
+.information h3{
+  color: var(--cor01);
+  font: 14px var(--font-principal);
+  height: 0;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.information a{
+  color: var(--cor02);
+  text-decoration: none;
+}
+.information a:hover{
+  color: var(--cor03);
+  border-bottom: 1px solid var(--cor03);
+}
+
+.information p{
+  font-size: 18px;
+  text-align: center;
+}
+ #summary{
+  background: var(--cor02);
+  padding: 24px;
+ }
+
+ #summary div{
+  background: var(--cor05);
+  color: var(--cor04);
+  margin-bottom: 15px;
+  padding: 15px;
+
+ }
+
+ #summary div h2{
+  font-family: var(--font-principal);
+  color: var(--cor01);
+  margin-bottom: 8px;
+ }
+
+ #summary div p{
+  font-size: 22px;
+ }
+
+ footer {
+  background: var(--cor05);
+  padding: 20px;
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+ }
+
+ footer p{
+  color: var(--cor04);
+  text-align: center;
+  font-size: 18px;
+ }
+
+ footer a{
+  background: var(--cor01);
+  color: var(--cor05);
+  position: absolute;
+  right: 30px;
+  top: -20px;
+ }

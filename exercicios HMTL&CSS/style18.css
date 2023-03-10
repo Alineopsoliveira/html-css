@@ -1,0 +1,32 @@
+@charset "UTF-8";
+input{
+    border: 1px solid #69C7DF;
+ }
+ 
+
+
+ .series > li:link{
+    color: aliceblue;
+    text-decoration: none;
+ }
+ .series > a:visited{
+    color: rosybrown;
+ }
+ 
+ .filmes >li:hover{
+    background-color: beige;
+    color:orangered;
+ }
+.series >li:first-child:active{
+color: yellowgreen;
+text-decoration: underline;
+}
+
+.series > li:last-child:focus{
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.filmes > li:nth-child(even){
+    color:blueviolet;
+}

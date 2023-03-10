@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'valentina' ;
+    src: url('Hello\ Valentina.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'milk';
+    src: url('Milk Kids.ttf') format('truetype'); src: url('Milk\ Kids.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{background-image: linear-gradient(to right,#2A5059,#0F4A59,#1C8DA8);
+}
+#principal{
+    background-color: #69C7DF;
+    color: #0F4A59;
+    width: 765px;
+}
+.urgente{
+    color: darkred;
+    background-color: aliceblue;
+    width: 90px;
+}
+.prioritario{
+    color: darkgreen;
+    background-color: aliceblue;
+    width: 115px;
+}
+.naourgente{
+    color:#1C8DA8 ;
+    background-color: aliceblue;
+    width: 130px;
+}
+h1{ color: white;}
+
+li {
+    color: #0F4A59;
+    
+}
+ol{
+    background-color: #c0eefa;
+    width: 200px;
+    
+}
+ul {
+    background-color: #c0eefa;
+    width: 200px;
+    
+}
+div{
+    font-family: 'valentina' , Verdana, Tahoma, sans-serif;
+    font-size: 32px;
+    display: inline-block;
+    background-color: #69C7DF;
+    color:#0F4A59;
+    border: 3px solid #ebf1f3;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    padding-top: 3px;
+
+}
+ #d1:hover{
+    background-color: darkred;
+    color: aliceblue;
+    
+ }
+ #d2:hover{
+    background-color: darkgreen;
+    color: aliceblue;
+    
+ }
+
+ #d3:hover{
+    background-color: #1C8DA8;
+    color: #ebf1f3;
+ }
+
+ #d1 > p {
+    display: none; 
+ }
+
+ #d1:hover > p {
+    display: block;
+ }
+
+ #d2 > p {
+    display: none;
+ }
+
+ #d2:hover > p {
+    display: block;
+ }
+
+ #d3 > p {
+    display: none;
+ }
+
+ #d3:hover > p {
+    display: block;
+ }
+
+ p{
+    font-family: 'milk';
+    font-size: 16px;
+    color: aliceblue;
+ }
+

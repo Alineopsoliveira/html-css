@@ -1,0 +1,102 @@
+
+    
+         <section class="publications flex">
+          <p class="title">Publicações</p>
+
+          <div>
+            <aside class="pub-body">
+              <img  src="assets/images/1.png" />
+            </aside>
+
+            <aside class="nick ">
+              <img class="border" src="assets/images/avatar.jpg" alt="">
+              <strong class="flex">Aline</strong>
+            </aside>
+
+            <aside class="pub-actions">
+              <i class="fa fa-heart" style="color: red;"></i>
+              <i class="fa fa-comments-o"></i>
+            </aside>
+          </div>
+
+          <div>
+            <aside class="pub-body">
+              <img  src="assets/images/2.png" />
+            </aside>
+
+            <aside class="nick ">
+              <img class="border" src="assets/images/avatar.jpg" alt="">
+              <strong>Aline</strong>
+            </aside>
+
+            <aside class="pub-actions">
+              <i class="fa fa-heart" style="color: red;"></i>
+              <i class="fa fa-comments-o"></i>
+            </aside>
+          </div>
+
+          <div>
+            <aside class="pub-body">
+              <img src="assets/images/3.png" />
+            </aside>
+
+            <aside class="nick">
+              <img class="border" src="assets/images/avatar.jpg" alt="">
+              <strong>Aline</strong>
+            </aside>
+
+            <aside class="pub-actions">
+              <i class="fa fa-heart" style="color: red;"></i>
+              <i class="fa fa-comments-o"></i>
+            </aside>
+          </div>
+
+          <div>
+            <aside class="pub-body">
+              <img src="assets/images/4.png" />
+            </aside>
+
+            <aside class="nick">
+              <img class="border" src="assets/images/avatar.jpg" alt="">
+              <strong>Aline</strong>
+            </aside>
+
+            <aside class="pub-actions">
+              <i class="fa fa-heart" style="color: red;"></i>
+              <i class="fa fa-comments-o"></i>
+            </aside>
+          </div>
+
+          <div>
+            <aside class="pub-body">
+              <img src="assets/images/5.png" />
+            </aside>
+
+            <aside class="nick">
+              <img class="border" src="assets/images/avatar.jpg" alt="">
+              <strong>Aline</strong>
+            </aside>
+
+            <aside class="pub-actions">
+              <i class="fa fa-heart" style="color: red;"></i>
+              <i class="fa fa-comments-o"></i>
+            </aside>
+          </div>
+
+          <div>
+            <aside class="pub-body">
+              <img src="assets/images/6.png" />
+            </aside>
+
+            <aside class="nick">
+              <img class="border" src="assets/images/avatar.jpg" alt="">
+              <strong>Aline</strong>
+            </aside>
+
+            <aside class="pub-actions">
+              <i class="fa fa-heart" style="color: red;"></i>
+              <i class="fa fa-comments-o"></i>
+            </aside>
+          </div>
+
+         </section>

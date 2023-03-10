@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background: #111111;
+    display: flex;
+    padding: 8px 24px;
+    align-items: center;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    column-gap: 24px;
+}
+header img {
+    width: 180px;
+}
+
+header a {
+    color: #ebebeb;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+header ul li+li {
+    margin-left: 15px;
+}
+
+header a:hover{
+    color: #f13239;
+    border-top: 1px solid #f13239;
+}
+
+.herois{
+    background-image: url(imagens/banner.jpg);
+    background-size: cover;
+    background-position: center 25%;
+    height: 320px;
+    padding: 15px;
+    flex-direction: column;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.herois > h1{
+    color: #ebebeb;
+    font-size: 20px;}
+
+.galeria {
+     max-width: 1200px;
+    margin: 64px auto 0;
+    padding: 0 24px;       
+        }
+   
+.galeria h2{
+    color: #111111;
+    margin-bottom: 30px;
+    border-left: 2px solid #f13239;
+    padding-left: 5px;
+}   
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.imagens  div{
+    flex: 1 1 250px;
+}
+
+.imagens img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+   
+}
+.imagens p{
+    font-weight: bold;
+}
+
+.historia {
+    margin: 64px 0 0;
+    padding: 94px 24px 0;
+    background-color: #111111;
+    color: #ebebeb;
+    border-top: 4px solid #f13239;
+}
+
+.historia .container{ 
+    max-width: 1200px;
+    margin: 0 auto ;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-bottom: 2px solid #f13239;
+    
+}
+
+.historia .container .col{
+    flex: 1 1 350px;
+    
+}
+
+.historia .container .col img{
+    width: 100%;
+    display: block;
+}
+
+.historia .container .col h2{
+    margin-bottom: 24px;
+    border-left: 2px solid #f13239;
+    padding-left: 5px;
+    
+}
+
+.historia p {
+    line-height: 1.5em;
+}
+
+.historia p + p {
+    margin-top: 24px;
+}
+.historia a {
+    color: #f13239;
+    text-decoration: none;
+    transition: color 0.3s;
+   
+}
+
+.historia a:hover{
+    color: #ebebeb
+    
+}
+footer {
+    background: #111111;
+    color: #ebebeb;
+    padding: 64px 24px;
+    text-align: center;
+}
+footer a {
+    color: #f13239;
+    text-decoration: none ;
+    transition: 0.2s;
+}
+
+footer a:hover{
+    color: #ebebeb;
+}
+
+

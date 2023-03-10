@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+h1{
+       align-items: center;
+    display: flex;
+    gap: 8px;
+    
+    
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1::before{
+    color: palevioletred;
+    content: "[Aula - 25]";
+    font-size: 20px;
+    
+    
+}
+
+h1::after{
+    content: "🚀";
+    background-color: palevioletred;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 26px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+button{
+    padding: 12px 26px;
+    
+    margin-left: 10px;
+    
+}
+button:first-child::after{
+    content: " ➕";
+}
+
+button:last-child::after{
+    content: " 💬";
+}
+
+button:hover:not(:disabled),
+button:focus{
+    background: rgb(1, 44, 42);
+    outline: 2px solid rgb(1, 44, 42);
+    outline-offset: 2px ;
+    cursor: pointer;
+}
+button:disabled{
+    background: whitesmoke;
+    color: rgb(216, 216, 216);
+}
+
+ul li:first-child::marker{
+    content: "📑 ";
+}
+
+ul li:nth-child(2)::marker{
+    content: "✨ ";
+}
+
+ul li:last-child::marker{
+    content: "♟ ";
+}
+   
+section p:first-child::first-line{
+    color: palevioletred;
+}
+
+section p::first-letter{
+    font-size: 30px;
+    font-weight: bolder;
+    color: palevioletred;
+}
